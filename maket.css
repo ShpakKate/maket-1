@@ -1,0 +1,99 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 58, 57);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;   
+}
+.header {
+    height: 100px;
+    color: rgb(112, 110, 112);
+    text-align: left;
+    border: 1px rgb(87, 86, 86) solid;
+    background-color: rgb(189, 187, 187);
+    display: flex;
+}
+.logo {
+    overflow: hidden;
+    margin: 6px;
+    float: left;
+}
+h2,h5 {
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 4px;
+    font-weight: 400;
+}
+h5 {
+    margin-top: -6px;
+    font-weight: 600;
+}
+.nav, .aside ul{
+    background-color: rgb(41, 40, 40); 
+    list-style-type: none;
+}
+.nav {
+    margin: 0;
+    height: 25px;
+    padding: 10px 0 0 10px;
+}
+.nav li{
+    display: inline;
+    padding: 10px; 
+}
+a {
+    font-size: 0,8em;
+    color: rgb(214, 218, 218);
+    text-decoration-line: none;
+    font-size: 0.85em;
+}
+li:hover {
+    background-color: rgb(245, 243, 243);
+    text-decoration-line: underline; 
+}
+a:hover{
+    color: rgb(51, 50, 50); 
+}
+main {
+    padding-top: 10px;
+}
+.aside {
+    position: relative;
+    float: left;
+    background-color: rgb(189, 187, 187);
+    width: 220px; 
+    height: 470px;
+    line-height: 2em;
+}
+.aside ul {
+    margin: 10px 10px auto 10px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.content {
+    position: relative;
+    margin-left: 230px;
+    padding: 0;
+}
+h3, h4 {
+    font-weight: 500;
+    margin: 0 auto; 
+}
+.text p{
+    font-size: 0.8em;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+.list li {
+   font-size: 0.8em ; 
+   padding-bottom: 0.3em;
+}
+.footer{
+    position: relative;
+    clear: both;
+    background-color: rgb(26, 25, 25);
+    height: 30px;
+    margin-bottom: 30px;
+}
