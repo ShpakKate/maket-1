@@ -3,97 +3,117 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(58, 58, 57);
 }
+
 .container {
     width: 80%;
     margin: 0 auto;   
 }
+
 .header {
-    height: 100px;
+    height: 6.25rem;
     color: rgb(112, 110, 112);
     text-align: left;
     border: 1px rgb(87, 86, 86) solid;
     background-color: rgb(189, 187, 187);
     display: flex;
 }
+
+.titel {
+    padding-top: 1rem;
+}
+
 .logo {
     overflow: hidden;
-    margin: 6px;
-    float: left;
+    margin: 0.7rem;
 }
+
 h2,h5 {
     text-transform: uppercase;
-    margin: 0px;
-    padding-top: 4px;
+    margin: 0;
+    padding-top: 0.25rem;
     font-weight: 400;
 }
+
 h5 {
-    margin-top: -6px;
     font-weight: 600;
 }
-.nav, .aside ul{
+
+.nav, .aside ul {
     background-color: rgb(41, 40, 40); 
     list-style-type: none;
 }
+
 .nav {
     margin: 0;
-    height: 25px;
-    padding: 10px 0 0 10px;
+    height: 1.56rem;
+    padding: 0.625rem 0 0 0.625rem;
 }
-.nav li{
+
+.nav li {
     display: inline;
-    padding: 10px; 
+    padding: 0.625rem; 
 }
+
 a {
-    font-size: 0,8em;
+    font-size: 0,8rem;
     color: rgb(214, 218, 218);
     text-decoration-line: none;
-    font-size: 0.85em;
+    font-size: 0.85rem;
 }
+
 li:hover {
     background-color: rgb(245, 243, 243);
     text-decoration-line: underline; 
 }
-a:hover{
+
+li:hover a {
     color: rgb(51, 50, 50); 
 }
+
 main {
-    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.625rem;
 }
+
 .aside {
-    position: relative;
-    float: left;
+    flex: 1;
+    flex-basis: 8rem;
     background-color: rgb(189, 187, 187);
-    width: 220px; 
-    height: 470px;
-    line-height: 2em;
+    height: 29rem;
+    line-height: 2rem;
 }
+
 .aside ul {
-    margin: 10px 10px auto 10px;
-    padding: 10px 0 10px 0;
+    margin: 0.625rem 0.625rem auto 0.625rem;
+    padding: 0.625rem 0 0.625rem 0;
     text-align: center;
 }
+
 .content {
-    position: relative;
-    margin-left: 230px;
+    flex: 4;
     padding: 0;
+    margin-left: 0.4rem;
 }
+
 h3, h4 {
     font-weight: 500;
     margin: 0 auto; 
 }
-.text p{
-    font-size: 0.8em;
-    line-height: 1.3em;
+
+.text p {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
     font-weight: 400;
 }
+
 .list li {
-   font-size: 0.8em ; 
-   padding-bottom: 0.3em;
+   font-size: 0.8rem ; 
+   padding-bottom: 0.3rem;
 }
+
 .footer{
-    position: relative;
-    clear: both;
     background-color: rgb(26, 25, 25);
-    height: 30px;
-    margin-bottom: 30px;
+    height: 1.9rem;
+    margin-bottom: 1.9rem;
 }
